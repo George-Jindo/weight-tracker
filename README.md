@@ -104,10 +104,4 @@ The React front‑end lives in the `frontend` directory and is unchanged from th
 
 The application will open at `http://localhost:3000` with the Node.js backend serving data.  Use the **My Weights** page to manage entries and see the chart updated in real time.
 
-## About the Technology Choices
-
-This edition replaces the original C#/.NET backend with a Node.js API using Express and the `pg` module to communicate with PostgreSQL.  Express is a minimal and unopinionated web framework for Node.js that is widely used for building REST APIs【382738242558402†L138-L146】.  PostgreSQL remains the database of choice because of its robustness and standards compliance【382738242558402†L151-L158】.
-
-Unit tests are implemented with Jest, the de facto testing framework in the Node ecosystem, to ensure that the core CRUD logic works as expected.
-
 Enjoy tracking your progress with a fully JavaScript stack!
